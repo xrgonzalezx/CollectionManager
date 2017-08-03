@@ -1,0 +1,59 @@
+[
+    {
+        "title": "The Giants",
+        "pages": 25,
+        "author": {
+                "firstName": "Steve",
+                "lastName": "Banner"
+            },
+        "genre": "sports" ,
+        "synopsis": "sports history",
+        "format": "paperback"
+    },
+    {
+    "title": "The Program",
+    "pages": 35,
+    "author": {
+            "firstName": "Brandon",
+            "lastName": "Supper"
+        },
+    "genre": "sports" ,
+    "synopsis": "guide to college sports",
+    "format": "paperback"
+
+    },
+    {
+    "title": "Life",
+    "pages": 55,
+    "author": {
+            "firstName": "Alex",
+            "lastName": "Golde"
+        },
+    "genre": "finance" ,
+    "synopsis": "self help book",
+    "format": "paperback"
+    },
+    {
+    "title": "Code",
+    "pages": 100,
+    "author": {
+            "firstName": "Bret",
+            "lastName": "Fannigan"
+        },
+    "genre": "education" ,
+    "synopsis": "guide to coding",
+    "format": "hardback"
+    },
+    {
+    "title": "Game",
+    "pages": 85,
+    "author": {
+            "firstName": "Charlie",
+            "lastName": "Newhouse"
+        },
+    "genre": "hobby" ,
+    "synopsis": "intro to gaming",
+    "format": "paperback"
+
+    }
+]
