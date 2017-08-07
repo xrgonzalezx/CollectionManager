@@ -4,7 +4,33 @@
     <meta charset="utf-8">
     <title>Books</title>
   </head>
-  <body>
 
+  <body>
+    <div class="container">
+      <form class="addbook" action="/" method="post">
+        <div class="results">
+          <input type="text" name="title" placeholder="enter title (required)" />
+          <input type="text" name="genre" placeholder="enter genre" />
+          <input type="text" name="pages" placeholder="enter number of pages" />
+          <input type="text" name="synopsis" placeholder="enter synopsis"/>
+          <input type="text" name="author" placeholder="enter author": />
+          <input type="text" name="format" placeholder="enter format" />
+          <button type="submit" name="button">Add Entry</button>
+
+        </div>
+      </form>
+      
+    <ul>
+    {{#booksdata}}
+    <div class="wrapper">
+      <h1> Title: {{title}} </h1>
+      <li> Genre: {{genre}}</li>
+      <li> Number of pages: {{pages}}</li>
+      <li> Synopsis: {{synopsis}}</li>
+      <li> Author: {{author}}</li>
+      <li>{{format}}</li>
+    </div>
+    {{/booksdata}}
+    </ul>
   </body>
 </html>
